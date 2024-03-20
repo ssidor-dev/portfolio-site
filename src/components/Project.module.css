@@ -1,0 +1,66 @@
+.project-container {
+  display: flex;
+  flex-direction: column;
+
+  border: 2px solid #3f01ed;
+  border-radius: 16px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "RobotoReg", sans-serif;
+ 
+  margin: 1.75rem 0;
+}
+
+.project-thumb-img {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  margin-bottom: 1rem;
+  max-width: 300px;
+}
+
+.project-container h4 {
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.project-sub-container p {
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #3f01ed;
+  padding: 1rem;
+}
+
+.project-sub-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.github-link {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  border: 1px solid #3f01ed;
+  color: #3f01ed;
+  font-weight: 500;
+  border-radius: 10px;
+  padding: 8px 10px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.github-link:hover {
+  color: #fff;
+  background-color: #4001edbd;
+}
+
+@media screen and (min-width: 768px) {
+  .project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}

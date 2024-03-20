@@ -1,0 +1,11 @@
+.footer-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    font-family: "RobotoReg", sans-serif;
+}
+
+.footer-container p {
+    color: #3f01ed;
+    font-weight: 600;
+}

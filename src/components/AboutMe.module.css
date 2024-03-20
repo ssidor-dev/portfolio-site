@@ -1,0 +1,105 @@
+
+.aboutme-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  font-family: "RobotoReg", sans-serif;
+  font-weight: 400;
+}
+
+.aboutme-content {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  margin-bottom: 2rem;
+
+}
+
+.aboutme-container h3 {
+  margin-bottom: 2rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #3f01ed;
+}
+
+
+
+.aboutme-content p {
+  text-align: center;
+  line-height: 1.55rem;
+  letter-spacing: 0.75px;
+  min-width: 200px;
+  max-width: 350px;
+}
+
+.aboutme-skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1rem;
+  
+}
+
+.aboutme-skills svg {
+  width: 60px;
+  height: 60px;
+  padding: 8px;
+}
+
+.aboutme-skills img {
+  width: 60px;
+  height: 60px;
+  padding: 8px;
+}
+
+.aboutme-skills-icons {
+  display: flex;
+  padding: 12px;
+}
+
+.aboutme-skills-icons p {
+  font-weight: 600;
+}
+
+.aboutme-skills-icons div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+@media screen and (min-width: 820px) {
+  .aboutme-container {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+  
+  }
+
+  .aboutme-container h3 {
+    font-size: 1.75rem;
+    font-weight: 700;
+  }
+
+  .aboutme-content p {
+    text-align: center;
+    line-height: 1.55rem;
+    letter-spacing: 0.75px;
+    min-width: 400px;
+    line-height: 2rem;
+    letter-spacing: 0.95px;
+  }
+
+  .aboutme-skills {
+    margin-top: 0;
+  }
+
+}
