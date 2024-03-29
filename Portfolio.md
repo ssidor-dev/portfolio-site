@@ -1,0 +1,1 @@
+This is my first portfolio website showcasing projects that I have built using the different technologies listed in the skills section of this portfolio. I offer a contact section using getform.io to handle form submissions. This portfolio website was designed using Figma and built using React and Vite.
